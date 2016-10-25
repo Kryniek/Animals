@@ -1,3 +1,9 @@
 body{
     margin-top: 70px;
 }
+
+.navbarCSS{
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 0 5px 5px #888;
+}
