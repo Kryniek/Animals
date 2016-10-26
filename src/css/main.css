@@ -1,5 +1,6 @@
 body{
     margin-top: 70px;
+    background-color: antiquewhite;
 }
 
 .navbarCSS{
@@ -24,7 +25,7 @@ body{
 }
 
 .containerCSS{
-    background-color: antiquewhite;
+    background-color: white;
     box-shadow: 0 0 10px 2px RGB(50,0,20);
     border-radius: 20px;
 }
