@@ -3,7 +3,28 @@ body{
 }
 
 .navbarCSS{
+    opacity: 0.8;
+    background-color: brown;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     box-shadow: 0 0 5px 5px #888;
+}
+
+.logoImg{
+    margin-top: 2%;
+    border: 1px solid RGB(50,70,50);
+    box-shadow: 0 0 1px 1px #888;
+    border-radius: 70px;
+    width: 50px;
+}
+
+.logoText{
+    margin-top: 2%;
+    width: 170px;
+}
+
+.containerCSS{
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px 2px RGB(50,0,20);
+    border-radius: 20px;
 }
