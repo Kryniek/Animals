@@ -29,3 +29,13 @@ body{
     box-shadow: 0 0 10px 2px RGB(50,0,20);
     border-radius: 20px;
 }
+
+.textCentered{
+    text-align: center;
+}
+
+.imgCentered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
