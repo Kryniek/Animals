@@ -6,7 +6,7 @@
     
     
     function getValuesJson(){
-        $.getJSON("../json/pies.json?callback=?", function(data){
+        $.getJSON("../json/pies.json", function(data){
             data.dogs[0].Likes = 50;
             document.getElementById("firstPath").src = "../img/animals/dogs/" + data.dogs[randValue1].ElementId + ".jpg";
             document.getElementById("secondPath").src = "../img/animals/dogs/" + data.dogs[randValue2].ElementId + ".jpg";
