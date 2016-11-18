@@ -1,33 +1,34 @@
-//deklaracja kontrolera
-//app.controller('psyCtrl', function($scope){
+app.controller('psyCtrl', function($scope){
     
-    var randValue1 = Math.floor((Math.random() * 5));
-    var randValue2 = Math.floor((Math.random() * 5));
+    var animalsCount=50;
+    
+    var randValue1 = Math.floor((Math.random() * animalsCount));
+    var randValue2 = Math.floor((Math.random() * animalsCount));
     
     
     function getValuesJson(){
         $.getJSON("../json/pies.json", function(data){
-            data.dogs[0].Likes = 50;
             document.getElementById("firstPath").src = "../img/animals/dogs/" + data.dogs[randValue1].ElementId + ".jpg";
             document.getElementById("secondPath").src = "../img/animals/dogs/" + data.dogs[randValue2].ElementId + ".jpg";
+            
             document.getElementById("firstRace").textContent = data.dogs[randValue1].Race;
             document.getElementById("secondRace").textContent = data.dogs[randValue2].Race;
+            
             document.getElementById("firstDescription").textContent = data.dogs[randValue1].Description;
             document.getElementById("secondDescription").textContent = data.dogs[randValue2].Description;
+            
+            document.getElementById("firstDescription2").textContent = data.dogs[randValue1].Description2;
+            document.getElementById("secondDescription2").textContent = data.dogs[randValue2].Description2;
+            
+            document.getElementById("firstDescription3").textContent = data.dogs[randValue1].Description3;
+            document.getElementById("secondDescription3").textContent = data.dogs[randValue2].Description3;
         });
     };
     
     function validate(){
-        while(randValue1 == randValue2) randValue1 = Math.floor((Math.random() * 4));
-    };
-    
-    function setValuesJSON(){
-        /*$.getJSON("/src/json/pies.json", function(data){
-            console.log(data);
-        });*/
+        while(randValue1 == randValue2) randValue1 = Math.floor((Math.random() * (animalsCount-1)));
     };
     
     document.getElementById("body").addEventListener("load", validate());
     document.getElementById("body").addEventListener("load", getValuesJson());
-    document.getElementById("firstImg").addEventListener("click", setValuesJSON());
-//});
+});
