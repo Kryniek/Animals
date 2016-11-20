@@ -1,0 +1,346 @@
+<!doctype html>
+<html ng-app="app" ng-controller="psySpisCtrl">
+    <head>
+        <!-- cdn linki -->
+        <!-- dzięki nim używany jest bootstrap oraz angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- /cdn linki -->
+        
+        
+        <!-- main -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zwierzaki</title>
+        <!-- main -->
+        
+        <!--css-->
+        <link rel="stylesheet" href="../../css/main.css">
+        <!--/css-->
+    </head>
+    <body id="body">
+        
+        <!-- navbar -->
+        <!-- pasek nawigacyjny u góry strony -->
+        <nav class="navbar navbar navbar-fixed-top navbarCSS" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-left" href="../../../index.html">
+                        <img class="logoImg" src="../../img/logo.jpg"/><img class="logoText" src="../../img/logoZwierzaki.png"/>
+                    </a>
+                </div>
+                <a href="../../view/opis.html" class="btn btn-warning navbar-btn navbar-right">Opis</a>
+                <a href="psy.html" class="btn btn-warning navbar-btn navbar-right">Zobacz wszystkie rasy</a>
+            </div>
+        </nav>
+        <!-- /navbar -->
+        
+        <!--container-->
+        <!-- glówny kontener -->
+        <div class="container containerCSS">
+            
+            <!-- nagłówek -->
+            <div class="page-header">
+                <img class="img-responsive imgCentered" src="../../img/psy.png"/>
+            </div>
+            <!-- /nagłówek -->
+            
+            <div class="row">
+                <div id="col0" class="col-sm-3 col-md-3">
+                    <a id="a0" href="psyView.html" class="thumbnail">
+                        <img id="path0"/>
+                        <div class="caption">
+                            <h4 id="race0">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col1" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path1"/>
+                        <div class="caption">
+                            <h4 id="race1">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col2" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path2"/>
+                        <div class="caption">
+                            <h4 id="race2">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col3" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path3"/>
+                        <div class="caption">
+                            <h4 id="race3">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col4" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path4"/>
+                        <div class="caption">
+                            <h4 id="race4">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col5" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path5"/>
+                        <div class="caption">
+                            <h4 id="race5">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col6" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path6"/>
+                        <div class="caption">
+                            <h4 id="race6">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col7" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path7"/>
+                        <div class="caption">
+                            <h4 id="race7">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col8" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path8"/>
+                        <div class="caption">
+                            <h4 id="race8">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col9" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path9"/>
+                        <div class="caption">
+                            <h4 id="race9">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col10" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path10"/>
+                        <div class="caption">
+                            <h4 id="race10">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col11" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path11"/>
+                        <div class="caption">
+                            <h4 id="race11">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col12" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path12"/>
+                        <div class="caption">
+                            <h4 id="race12">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col13" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path13"/>
+                        <div class="caption">
+                            <h4 id="race13">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col14" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path14"/>
+                        <div class="caption">
+                            <h4 id="race14">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col15" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path15"/>
+                        <div class="caption">
+                            <h4 id="race15">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col16" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path16"/>
+                        <div class="caption">
+                            <h4 id="race16">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col17" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path17"/>
+                        <div class="caption">
+                            <h4 id="race17">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col18" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path18"/>
+                        <div class="caption">
+                            <h4 id="race18">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col19" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path19"/>
+                        <div class="caption">
+                            <h4 id="race19">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col20" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path20"/>
+                        <div class="caption">
+                            <h4 id="race20">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col21" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path21"/>
+                        <div class="caption">
+                            <h4 id="race21">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col22" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path22"/>
+                        <div class="caption">
+                            <h4 id="race22">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col23" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path23"/>
+                        <div class="caption">
+                            <h4 id="race23">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col24" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path24"/>
+                        <div class="caption">
+                            <h4 id="race24">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col25" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path25"/>
+                        <div class="caption">
+                            <h4 id="race25">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col26" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path26"/>
+                        <div class="caption">
+                            <h4 id="race26">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col27" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path27"/>
+                        <div class="caption">
+                            <h4 id="race27">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col28" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path28"/>
+                        <div class="caption">
+                            <h4 id="race28">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+                <div id="col29" class="col-sm-3 col-md-3">
+                    <a href="psyView.html" class="thumbnail">
+                        <img id="path29"/>
+                        <div class="caption">
+                            <h4 id="race29">Rasa</h4>
+                            <hr>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <!--/container-->
+        
+        <!-- stopka -->
+        <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p>Autor: Krystian Szatkiewicz</p>
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="http://www.github.com/kryniek">github.com/kryniek</a>
+                </div>
+            </div>
+        </div>
+        <!-- /stopka -->
+        
+        <!--JS-->
+        <script src="../../js/main.js"></script>
+        <script src="../../js/animals/spis/psy.js"></script>
+        <!--JS-->
+        
+    </body
+</html>
