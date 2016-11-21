@@ -1,4 +1,4 @@
-app.controller('psySpisCtrl', function($rootScope){
+app.controller('psySpisCtrl', function($scope){
     
     var animalsCount=30;
     var randValue = Math.floor((Math.random() * 6));
@@ -31,156 +31,245 @@ app.controller('psySpisCtrl', function($rootScope){
         document.getElementById("col"+i).className="col-sm-6 col-md-6";
     };
     
+    function showMainView(){
+        $scope.showMainView=true;
+        $scope.showSecondView=false;
+    };
+    
+    function showSecondView(){
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+    };
+    
+    function getJSONSecondView(){
+        var imgCount=0;
+        $.getJSON("../../json/pies.json", function(data){
+            imgCount=data.dogs[$scope.jsonId].MaxPhotos;
+            for(var i=1; i<=imgCount; i++)
+                {
+                    document.getElementById("firstPath"+i).src = "../../img/animals/dogs/" + data.dogs[$scope.jsonId].ElementId + "/" + i + ".jpg";
+                }
+            
+            document.getElementById("firstRace").textContent = data.dogs[$scope.jsonId].Race;
+            
+            document.getElementById("firstDescription").textContent = data.dogs[$scope.jsonId].Description;
+            
+            document.getElementById("firstDescription2").textContent = data.dogs[$scope.jsonId].Description2;
+            
+            document.getElementById("firstDescription3").textContent = data.dogs[$scope.jsonId].Description3;
+        });
+    };
+    
     document.getElementById("body").addEventListener("load", getValuesJson());
+    document.getElementById("body").addEventListener("load", showMainView());
     
     document.getElementById("col0").onclick = function(){
-        $rootScope.jsonId=0;
-        alert($rootScope.jsonId);
-        alert(someShit);
+        $scope.jsonId=0;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col1").onclick = function(){
-        $rootScope.jsonId=1;
-        alert($rootScope.jsonId);
+        $scope.jsonId=1;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col2").onclick = function(){
-        $rootScope.jsonId=2;
-        alert($rootScope.jsonId);
+        $scope.jsonId=2;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col3").onclick = function(){
-        $rootScope.jsonId=3;
-        alert($rootScope.jsonId);
+        $scope.jsonId=3;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col4").onclick = function(){
-        $rootScope.jsonId=4;
-        alert($rootScope.jsonId);
+        $scope.jsonId=4;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col5").onclick = function(){
-        $rootScope.jsonId=5;
-        alert($rootScope.jsonId);
+        $scope.jsonId=5;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col6").onclick = function(){
-        $rootScope.jsonId=6;
-        alert($rootScope.jsonId);
+        $scope.jsonId=6;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col7").onclick = function(){
-        $rootScope.jsonId=7;
-        alert($rootScope.jsonId);
+        $scope.jsonId=7;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col8").onclick = function(){
-        $rootScope.jsonId=8;
-        alert($rootScope.jsonId);
+        $scope.jsonId=8;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col9").onclick = function(){
-        $rootScope.jsonId=9;
-        alert($rootScope.jsonId);
+        $scope.jsonId=9;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col10").onclick = function(){
-        $rootScope.jsonId=10;
-        alert($rootScope.jsonId);
+        $scope.jsonId=10;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col11").onclick = function(){
-        $rootScope.jsonId=11;
-        alert($rootScope.jsonId);
+        $scope.jsonId=11;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col12").onclick = function(){
-        $rootScope.jsonId=12;
-        alert($rootScope.jsonId);
+        $scope.jsonId=12;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col13").onclick = function(){
-        $rootScope.jsonId=13;
-        alert($rootScope.jsonId);
+        $scope.jsonId=13;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col14").onclick = function(){
-        $rootScope.jsonId=14;
-        alert($rootScope.jsonId);
+        $scope.jsonId=14;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col15").onclick = function(){
-        $rootScope.jsonId=15;
-        alert($rootScope.jsonId);
+        $scope.jsonId=15;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col16").onclick = function(){
-        $rootScope.jsonId=16;
-        alert($rootScope.jsonId);
+        $scope.jsonId=16;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col17").onclick = function(){
-        $rootScope.jsonId=17;
-        alert($rootScope.jsonId);
+        $scope.jsonId=17;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col18").onclick = function(){
-        $rootScope.jsonId=18;
-        alert($rootScope.jsonId);
+        $scope.jsonId=18;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col19").onclick = function(){
-        $rootScope.jsonId=19;
-        alert($rootScope.jsonId);
+        $scope.jsonId=19;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col20").onclick = function(){
-        $rootScope.jsonId=20;
-        alert($rootScope.jsonId);
+        $scope.jsonId=20;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col21").onclick = function(){
-        $rootScope.jsonId=21;
-        alert($rootScope.jsonId);
+        $scope.jsonId=21;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col22").onclick = function(){
-        $rootScope.jsonId=22;
-        alert($rootScope.jsonId);
+        $scope.jsonId=22;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col23").onclick = function(){
-        $rootScope.jsonId=23;
-        alert($rootScope.jsonId);
+        $scope.jsonId=23;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col24").onclick = function(){
-        $rootScope.jsonId=24;
-        alert($rootScope.jsonId);
+        $scope.jsonId=24;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col25").onclick = function(){
-        $rootScope.jsonId=25;
-        alert($rootScope.jsonId);
+        $scope.jsonId=25;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col26").onclick = function(){
-        $rootScope.jsonId=26;
-        alert($rootScope.jsonId);
+        $scope.jsonId=26;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col27").onclick = function(){
-        $rootScope.jsonId=27;
-        alert($rootScope.jsonId);
+        $scope.jsonId=27;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col28").onclick = function(){
-        $rootScope.jsonId=28;
-        alert($rootScope.jsonId);
+        $scope.jsonId=28;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
     
     document.getElementById("col29").onclick = function(){
-        $rootScope.jsonId=29;
-        alert($rootScope.jsonId);
+        $scope.jsonId=29;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
     };
 });
