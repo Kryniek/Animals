@@ -45,6 +45,7 @@ app.controller('psySpisCtrl', function($scope){
         var imgCount=0;
         $.getJSON("../../json/pies.json", function(data){
             imgCount=data.dogs[$scope.jsonId].MaxPhotos;
+            if(imgCount>40) imgCount=40;
             for(var i=1; i<=imgCount; i++)
                 {
                     document.getElementById("firstPath"+i).src = "../../img/animals/dogs/" + data.dogs[$scope.jsonId].ElementId + "/" + i + ".jpg";
