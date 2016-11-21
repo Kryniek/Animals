@@ -1,6 +1,6 @@
 app.controller('psySpisCtrl', function($scope){
     
-    var animalsCount=30;
+    var animalsCount=40;
     var randValue = Math.floor((Math.random() * 6));
     var counter=0;
     
@@ -269,6 +269,76 @@ app.controller('psySpisCtrl', function($scope){
     
     document.getElementById("col29").onclick = function(){
         $scope.jsonId=29;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col30").onclick = function(){
+        $scope.jsonId=30;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col31").onclick = function(){
+        $scope.jsonId=31;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col32").onclick = function(){
+        $scope.jsonId=32;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col33").onclick = function(){
+        $scope.jsonId=33;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col34").onclick = function(){
+        $scope.jsonId=34;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col35").onclick = function(){
+        $scope.jsonId=35;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col36").onclick = function(){
+        $scope.jsonId=36;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col37").onclick = function(){
+        $scope.jsonId=37;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col38").onclick = function(){
+        $scope.jsonId=38;
+        $scope.showMainView=false;
+        $scope.showSecondView=true;
+        getJSONSecondView();
+    };
+    
+    document.getElementById("col39").onclick = function(){
+        $scope.jsonId=39;
         $scope.showMainView=false;
         $scope.showSecondView=true;
         getJSONSecondView();

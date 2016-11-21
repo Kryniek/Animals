@@ -301,7 +301,7 @@
         "Description" : "Łajka karelo-fińska pochodzi z północno-zachodnich obszarów Rosji, przy granicy z Finlandią. Jej nazwa pochodzi od historycznej krainy Karelii. Przodkami tej rasy są szpice fińskie i myśliwskie psy rosyjskie. Psy te wykorzystywano w Europie do polowania. Całkowite wyodrębnienie tej rasy, jako rasy samodzielnej, nastąpiło w XX wieku. Pierwsze hodowle powstały w Petrozawodzku i Mjedwjeżjegorsku. Dziś rasa ta jest popularna jedynie w Rosji. Używana do polowania na kuropatwy, wiewiórki. W innych krajach bardzo mało znana.",
         "Description2" : "Łajka karelo-fińska to najmniejszy pies z grupy łajek. Jest energiczny, żywy, pobudliwy i niezwykle obronny. Jest inteligentny i niezwykle wrażliwy na sposób traktowania. Podobnie jak inne łajki nie toleruje złego traktowania. Dobrze wyszkolony i traktowany, jest psem przyjacielskim, towarzyskim, przyjaźnie nastawionym do znajomych. Pieski te często są nieufne wobec obcych. Mają wielki instynkt psa stróżującego i myśliwego. Ze swoim opiekunem nawiązują głęboką przyjaźń. Uwielbiają wspólny odpoczynek po ciężkiej pracy w samochodzie opiekuna. Umaszczenie tego psa występuje w kolorze rudym z różnymi odcieniami. Ma dwuwarstwową sierść: gęsty podszerstek i twarde, proste włosy.",
         "Description3" : "Łajka karelsko-fińska to pies ogólnie zdrowy, nie obciążony żadnymi chorobami genetycznymi. Jest łatwy w pielęgnacji i potrzebuje dużo ruchu.",
-        "MaxPhotos" : 0
+        "MaxPhotos" : 3
     },
     {
         "ElementId" : 39,
@@ -309,7 +309,7 @@
         "Description" : "Łajka zachodniosyberyjska pochodzi z zachodniej Syberii. Przodkami tej rasy psów sa różne odmiany łajek: łajka mansijska, chanrejska oraz rosyjskie psy myśliwskie. Wykorzystywana jako pies myśliwski.",
         "Description2" : "Łajka zachodniosyberyjska to niepokorny, samodzielny pies. Wyszkolony został do umiejętnego tropienia zwierzyny w lesie. Poluje sam bez udziału myśliwego, poprzez naganianie zwierzyny. Niechętnie wykonuje polecenia myśliwego, potrafi sam zorganizować sobie odpowiedni sposób tropienia. Wymaga szkolenia od najmłodszego okresu, ale wykazuje niezmierną wrażliwość na sposób traktowania. Surowa dyscyplina nie przynosi żadnych rezultatów. Ćwiczenia powinny odbywać się w formie zabawy, a pies winien być często nagradzany. Karanie psa może spowodować utratę jego zaufania. Dobrze traktowany pies jest bardzo wiernym i oddanym przyjacielem. Ma przyjazny stosunek do ludzi. Jest bardzo inteligentny i pojętny. Może czasami wykazywać agresję w stosunku do innych psów. Łajka zachodniosyberyjska posiada różnorodne umaszczenie. Może występować w kolorze białym, kremowym, pieprz i sól, rudym, szarym, łaciatym. Włosy psa są grube i proste, na szyi tworzą charakterystyczny kołnierz, na kończynach tworzą się dłuższe frędzle, a pomiędzy palcami występuje sierść. Łajki mają muskularną szyję, mocny tułów, klinowatą kufę, skośnie ustawione oczy, stojące uszy.",
         "Description3" : "Łajka zachodniosyberyjska nie wymaga wielu zabiegów pielęgnacyjnych, wystarczy szczotkowanie. Pies chętnie sam się kąpie w zbiornikach wodnych i nie wymaga dodatkowych zabiegów pielęgnacyjnych. Rasa niezwykle zdrowa, bez obciążeń genetycznych.",
-        "MaxPhotos" : 0
+        "MaxPhotos" : 10
     },
     {
         "ElementId" : 40,
@@ -317,87 +317,7 @@
         "Description" : "Łajka wschodniosyberyjska pochodzi ze wschodniej Syberii, z Rosji. Przodkami tej rasy są psy myśliwskie ze wschodniej Syberii, z rejonu Irkucka i wschodnich terenów jeziora Bajkał. Słowo łajka w języku rosyjskim oznacza szczekacz, oszczekiwacz. Wykorzystywano ją jako psa myśliwskiego, stróżującego i pociągowego.",
         "Description2" : "Łajka wschodniosyberyjska pod względem budowy jest największą i najsilniejszą łajką w Rosji. Jest to pies bardzo czujny, wytrwały, mądry. Jest dobrym myśliwym, ale także dobrym psem stróżującym. Jest nieufny wobec obcych, wymaga odpowiedniego szkolenia. Jest to pies jednego opiekuna. Toleruje także rodzinę i lubi spędzać z nią wolny czas. Jest to raczej samotnik i pies niezależny. Nie jest przekupny. Uwielbia ruch na powietrzu, długie spacery, biegi. Łajka wschodnioeuropejska posiada różnorodne umaszczenie, może być w kolorze szarym, szaro-białym, białym, rudym, łaciatym. Ma prosty, szeroki i muskularny grzbiet, klinowatą głowę, małe oczy osadzone skośnie, stojące uszy.",
         "Description3" : "Łajka wschodnioeuropejska to niezwykle zdrowy pies. Nie jest obciążony żadnymi chorobami genetycznymi. Potrzebuje dużo ruchu i codziennych, długich spacerów.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 41,
-        "Race" : "ŁAJKA ROSYJSKO-EUROPEJSKA",
-        "Description" : "Łajka rosyjsko-europejska pochodzi z północnych rejonów europejskiej Rosji. Znana jest od wielu wieków. Jej przodkami są pierwotne psy myśliwskie i psy użytkowe z plemienia Komi. Łajka bardzo przypomina karelskiego psa na niedźwiedzie, zarówno pod względem wyglądu jak i charakteru. Łajka wschodnio-europejska wykorzystywana była do polowania na grubą zwierzynę, zwierzęta futerkowe i ptaki. Dziś jest bardzo popularna w Rosji, hodowana jako pies myśliwski i pies do towarzystwa.",
-        "Description2" : "Łajka rosyjsko-europejska to wytrzymały, mocny i energiczny pies. Jest niezależny i samodzielny. Niezmiernie pracowity, mądry i inteligentny. Ma silnie zakorzeniony instynkt myśliwski. W rodzinie jest raczej spokojny i przyjazny. Potrzebuje socjalizacji od najmłodszego okresu szczenięcego. Szybko się uczy i długo pamięta zdobytą wcześniej naukę. Są to psy właściwie jednego opiekuna. Są do niego niezmiernie przywiązane, ale uwielbiają spędzać czas z rodziną. Bardzo chcą być przydatne w ich życiu. Nie zbyt posłuszne. Są energiczne, potrzebują dużo ruchu na powietrzu. Łajka rosyjsko-europejska posiada umaszczenie czarno-białe, może być także całkowicie czarne, szare, białe, pieprz i sól lub łaciate. Ma sierść składająca się z dwóch warstw podszerstka, proste i twarde włosy różnej długości. Jego głowa jest w kształcie klina, ma skośnie osadzone oczy, trójkątne uszy. Posiada mocną, szeroką i prostą sylwetkę.",
-        "Description3" : "Łajka wschodnio-europejska wymaga dużo ruchu na świeżym powietrzu, długich spacerów i zabaw. Jest jedną z najzdrowszych ras i najbardziej odpornych na niskie temperatury. W srogie zimy potrafi ogrzać opiekuna własnym ciałem.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 42,
-        "Race" : "LAPINPOROKOIRA",
-        "Description" : "Lapinporokoira pochodzi z Finlandii. Jest to pies starożytnej rasy, ale pierwsze zapiski pojawiły się w XVII wieku. Ten lapoński pies pilnujący był na wymarciu po II wojnie światowej. Dopiero od roku 1959 rozpoczęła się na nowo jego hodowla. Wykorzystywany był do pilnowania stad reniferów. Dziś nadal pracuje jako pies pasterski przy reniferach oraz jako pies stróżujący i towarzyszący.",
-        "Description2" : "Lapinporokoira to posłuszny, energiczny i pracowity pies, typowy pasterz. Jest niezwykle czujny i aktywny. Chętnie się uczy i jest pojętnym uczniem. Uwielbia ruch, ćwiczenia, zabawy, biegi. Niezwykle przywiązany do swojego opiekuna. Lubi jednak pracować samodzielnie, zdany na samego siebie. Stawia sobie wysokie wymagania. Jest wytrzymały i twardy, nie okazuje słabości, ani zmęczenia. Cechuje go niezależność i elastyczność. Posiada czarne podpalane albo czekoladowo- podpalane umaszczenie. Ma twardą sierść i miękki podszerstek. Jego włosy są średniej i prostej długości. Na skórze ma charakterystyczne zmarszczki.",
-        "Description3" : "Psy tej rasy wymagają dużo ruchu i spacerów. Ogólnie jest to zdrowa rasa. Nie lubi upałów.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 43,
-        "Race" : "LANDSEER",
-        "Description" : "Landseer pochodzi z Kanady z XVIII wieku. Opracowany został jako odmiana Nowofundlandczyka. Dzięki portretom Sir Edwina Landseera psy tej rasy zdobyły popularność. Nazwa rasy pochodzi właśnie od jego nazwiska. Opisywane były także przez wielu poetów m.in. lorda Byrona. Do Europy przywędrowały z francuskimi i angielskimi rybakami. Anglicy ustanowili wzorzec tej rasy. Wykorzystywane były do pomocy rybakom, były także psami do towarzystwa. Dziś pracują jako psy stróżujące, ratujące ludzi w ratownictwie wodnym i jako psy towarzyszące. W Polsce rasa jest nielicznie spotykana.",
-        "Description2" : "Landseer to znakomity pływak, skłonny do ratowania innych i obrony słabszych. Jest psem bardzo towarzyskim, łagodnym i spokojnym. Uwielbia pływanie i wszelkie zabawy w wodzie. Jest przy tym zwinny i szybki. Kocha przebywać ze swoją rodziną. Jest słodki, czuły i kochany. Psy tej rasy uratowały wielu ludzi przed utonięciem. Landseer to duży, silnie zbudowany pies. Ma umaszczenie białe z czarnymi łatami na tułowiu i zadzie oraz czarną głowę i białe znaczenia na kufie. Posiada długi, gęsty włos z podszerstkiem. Ma masywną głowę, grubą szyję, silnie owłosiony ogon i duże łapy.",
-        "Description3" : "Psy tej rasy potrzebują zbiorników wodnych, aby mogły wykorzystywać tam swoją energię. Średnia długość życia wynosi 11 lat.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 44,
-        "Race" : "LABRADOODLE",
-        "Description" : "Labradoodle pochodzi z 1988 z Australii z krzyżówki Labradora Retrievera z pudlem. Opracowany został przez Wallyego Cornena, pracownika Stowarzyszenia Australijskich Psów Pracujących dla kobiety niedowidzącej, mieszkającej na Hawajach. Pies ten, ze względu na uczulenie alergiczne męża tej kobiety, musiał być niealergizujący. W ten sposób powstały znakomite psy dla alergików w połączeniu ze zdolnością przewodnika dla niepełnosprawnych. Dziś występują trzy odmiany: miniaturowe, średnie i duże. Wysokość: 30 – 40 cm (miniaturowe), 40 – 51 cm (średnie), 51 – 66 (standardowe) / Masa: 6 – 12 kg (miniaturowe), 12 – 23 kg (średnie), 23 – 45 kg (standardowe)",
-        "Description2" : "Labradoodle to pies niezwykle zdolny, szybki w uczeniu się i posłuszny. Potrafi znakomicie współpracować z ludźmi. Opiekuje się swoim opiekunem, jest bardzo rodzinny i przyjacielski. Uwielbia czas spędzany z rodziną. Są to psy żywe i energiczne, lubią zabawy i gry konstruktywne. Mają bardzo dobry kontakt z dziećmi i innymi zwierzętami. Dobrze wyszkolone, nie przejawiają agresji. Labradoodle mają atletyczną sylwetkę. Wyróżnia się dwa typy sierści: runo, przypominające sierść owcy i wełna, wyglądająca jak sierść pudla. Umaszczenie tych psów występuje w różnych kolorach od czarnego do beżowego.",
-        "Description3" : "Labradoodle obciążony jest wieloma chorobami genetycznymi po rodzicach. Są to problemy związane z dysplazją stawów biodrowych, choroby oczu, tarczycy. Hodowcy pracują obecnie nad całkowicie zdrową rasą.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 45,
-        "Race" : "PIES NIERASOWY",
-        "Description" : "Pies nierasowy swoją historią sięga czasów ludów pierwotnych. Jest to pies niezaliczany do żadnej z ras psów. Może być wynikiem skrzyżowania psów niewiadomego pochodzenia, zarówno kundli jak i mieszańców, może być także potomkiem dwóch odrębnych ras. W pierwszym przypadku mówimy o kundelku, w drugim o mieszańcu lub wielorasowcu.",
-        "Description2" : "Pies nierasowy to pies bardzo zróżnicowany pod względem charakteru. Bardzo trudno jednoznacznie określić jego osobowość, wszystko bowiem zależy od przodków danego psa. Mieszaniec posiada zwykle cechy dwóch, lub kilku ras, które ze sobą skrzyżowano. Kundelek to piesek niewiadomego pochodzenia, więc trudno określić skąd biorą się jego cechy. Umaszczenie takich psów jest tak różne jak różne są rasy psów. Posiadają różnorodną budowę, wielkość i szatę płaszcza.",
-        "Description3" : "Pies nierasowy jest zdrowszy od psa rasowego, żyje dłużej. Jest bardziej odporny na choroby.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 46,
-        "Race" : "KROMFOHRLÄNDER",
-        "Description" : "Kromfohrländer pochodzi z 1945 roku z Niemiec. Jest krzyżówką gryfona bretońskiego z foxterierem. Pierwszym hodowcą była Ilsa Scheifenbaun. Dziś istnieją 3 odmiany tej rasy: szorstkowłosa, gładkowłosa z długimi włosami i gładkowłosa z krótkimi włosami. Początkowo wyhodowany jako pies myśliwski i pies towarzyszący. Dziś używany jako pies do towarzystwa i pies wystawowy.",
-        "Description2" : "Kromfohrländer to niezwykle oddany towarzysz. Uwielbia swojego opiekuna. Nie ma jednak dobrych relacji z dziećmi, chodź je toleruje. Jest przyjazny w stosunku do ludzi, ale nadaje się też na stróża. Potrafi dostosować się do różnych warunków życia. Nie jest to pies energiczny, woli spokój i domowe kanapy. Lubi przebywać ze swoja rodziną. Jego umaszczenie jest w kolorze białym w brązowe łaty. Sierść zależy od odmiany jaką reprezentuje.",
-        "Description3" : "Kromfohrländer może mieszkać w małym mieszkaniu w mieście, nie potrzebuje bowiem dużo ruchu. Nie przepada za spacerami. Nie wymaga strzyżenia. Łatwy w pielęgnacji.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 47,
-        "Race" : "KOOIKERHONDJE",
-        "Description" : "Kooikerhondje pochodzi z Holandii z XVI wieku. Jego przodkami są psy hodowane do polowań, tzw. ptaszniki. Jest jednym z najmniejszych psów do polowania na ptaki. Wykorzystywano go do polowania metodą hodjes Kooiker, łapanie ptactwa za pomocą klatek. Ponadto psy tej rasy łapały myszy, łasice i szczury. Płochacz holenderski był bardzo popularny w XVII i XVIII wieku. Swoje miejsce znalazł także na obrazach Rembrandta i Steena. XIX wiek przyniósł znaczny spadek hodowli. Dopiero w latach czterdziestych XX wieku baronowa van Harderbroek z Ammerstol przyczyniła się do odrodzenia na nowo tej rasy psów.",
-        "Description2" : "Płochacz holenderski to pracowity, opanowany i czujny pies. Jest bardzo przywiązany do swego opiekuna, a podczas pracy ściśle z nim współpracuje. Jest przy tym posłuszny, mądry i inteligentny. Bardzo szybko dostosowuje się do zmieniającej rzeczywistości. Potrafi być bardzo spokojny i żywy, energiczny w zależności od sytuacji. Jest nieco nieufny w stosunku do obcych ludzi. To także doskonały pies stróżujący. Kooikerhondje posiada średniej długości, wodoodporny płaszcz. Ma błyszczące, dwukolorowe umaszczenie w barwach białej, pomarańczowej, czerwonej. Posiada długie wiszące uszy i charakterystyczny długi pierzasty ogon.",
-        "Description3" : "Płochacz holenderski może mieszkać w mieszkaniu, ale potrzebuje dużej dawki ruchu. Nie wymaga skomplikowanej pielęgnacji. Żyje 14 lat. Posiada obciążenia genetyczne w postaci chorób oczu, zaćmy, zaburzeń krwi, padaczki, częstych zwichnięć rzepki. Ma także skłonność do otyłości.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 48,
-        "Race" : "KISHU",
-        "Description" : "Kishu pochodzi z Japonii, z terenów Kishu, w prefekturze Wakayama i Mie, z 2500 r. p.n.e. Jest to pies starożytny, prezentujący typ dawnego szpica japońskiego. Był wykorzystywany do polowań na dziki, sarny, jelenie. Pracował jako pies stróżujący. Dziś w Europie hodowany jest jako pies do towarzystwa.",
-        "Description2" : "Kishu Inu to pies przyjacielski, spokojny i wierny. Jako pies myśliwski jest bardzo wytrzymały, szybki i odporny. Potrafi pracować w grupie z innymi psami. Ma silny instynkt łowiecki, dlatego też od wieku szczenięcego powinien przechodzić socjalizację, poznawać inne zwierzęta, szczególnie koty. Nie powinien zostawać w domu z chomikami, świnkami morskimi, ponieważ potraktuje je jak zdobycz. Kishu to przyjacielski, inteligentny pies. Uwielbia swoją rodzinę. Jest nieufny wobec obcych. Znakomicie nadaje się na psa stróżującego. Dobrze wyszkolony potrafi dogadywać się z dziećmi. Potrzebuje silnego opiekuna. Kishu ma umaszczenie białe, czasami pręgowane lub w odcieniach beżu. Ma silną sylwetkę, małe, trójkątne uszy, kufę w kształcie klina i gruby ogon.",
-        "Description3" : "Kishu nie lubi przebywać sam w domu, wymaga szkolenia i konsekwentnego właściciela. W przeciwnym razie będzie chciał dominować. Jest to pies bardzo energiczny, potrzebuje dużo ruchu. Nie wymaga pielęgnacji. Ogólnie jest to zdrowa rasa, może czasami chorować na dysplazję stawu biodrowego.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 49,
-        "Race" : "KELPIE",
-        "Description" : "Kelpie został wyhodowany w II połowie XIX wieku w Australii. Pochodzi z krzyżówki Border, scotch collie i owczarków angielskich. Jest to pies typu wilkowatego, wykorzystany do zaganiania zwierząt domowych. Przystosowany jest do surowego, gorącego klimatu i trudnych warunków australijskiego buszu. Ma doskonale wykształcony wzrok, głos oraz ruch. Hodowany jest głównie w Australii i Stanach Zjednoczonych. Pracuje na ranczach i farmach jako pies pasterski.",
-        "Description2" : "Kelpie to wytrzymały, wierny i inteligentny pies. Wspaniały towarzysz dla opiekuna. Potrafi także pracować w samotności, zdany tylko na własne siły. To niestrudzony i doskonały pasterz. Ma wrodzony instynkt pracy z owcami, czuje się za nie odpowiedzialny. Można powiedzieć, że to pies pracoholik. Dobrze wyszkolony ma dobry kontakt z dziećmi i innymi zwierzętami domowymi. Potrafi w razie niebezpieczeństwa bronić swojej rodziny. Jest bardzo dobrym psem obronnym, skłonnym do poświęcenia życia za swoich bliskich. Potrzebuje silnego i konsekwentnego opiekuna, z uwagi na jego dominujący charakter. Owczarek australijski kelpie to muskularny, ale i zwinny pies. Jego umaszczenie jest czarne, czarno podpalane, niebieskie, podpalane w odcieniach kremowego. Może mieć jasne znaczenia. Ma krótką, prostą sierść, długie nogi, na pośladkach charakterystyczne znaczenia, ogon w postaci szczotki.",
-        "Description3" : "Kelpie to pies wymagający dużej przestrzeni, dużo ruchu i dużo szkoleń, To typowy pies pasterski, potrzebujący ciągłych zajęć i pracy. Bez nich może być destrukcyjny.",
-        "MaxPhotos" : 0
-    },
-    {
-        "ElementId" : 50,
-        "Race" : "JAMTHUND",
-        "Description" : "Jamthund pochodzi ze Szwecji z krainy Jämtlandii. Za odrębną rasę uznano go w 1946 roku. Wyhodowany został do polowania na łosie, wilki i niedźwiedzie. Jest jednym z największych psów myśliwskich w Skandynawii. Dziś Jamthund wykorzystywany jest do polowań, nie jest praktycznie znany poza granicami Szwecji.",
-        "Description2" : "Jämthund to duży, silny i wytrwały pies myśliwski. Jest pewny siebie, sprawny, szybki. Niezwykle pracowity, mógłby polować całymi dniami i nocami. Potrafi poruszać się w najtrudniejszym terenie, nie jest zmęczony nawet po kilku dniach pracy. Dobrze wyszkolony jest znakomitym przyjacielem. Toleruje dzieci, ale wymaga nadzoru dorosłych. Jako pies rodzinny jest towarzyski i uczuciowy. Lubi jednak chodzić własnymi drogami. Jest bardzo inteligentny. Psy tej rasy mają umaszczenie szare z jaśniejszymi plamami na kufie, policzkach, podgardle i klatce piersiowej. Mają silne łapy, które pozwalają im brodzić po nierównym terenie pokrytym śniegiem.",
-        "Description3" : "Jamthund potrzebuje dużej przestrzeni, dużo ruchu. Powinien odbyć szkolenie już we wczesnym okresie szczenięcym. Dobrze czuje się w wolnej przestrzeni. To typowy pies myśliwski. Wymaga regularnego szczotkowania.",
-        "MaxPhotos" : 0
+        "MaxPhotos" : 5
     }
 ]
 }
