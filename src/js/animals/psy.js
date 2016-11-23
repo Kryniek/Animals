@@ -1,6 +1,6 @@
 app.controller('psyCtrl', function($scope){
     
-    var animalsCount=30;
+    var animalsCount=40;
     
     var randValue1 = Math.floor((Math.random() * animalsCount));
     var randValue2 = Math.floor((Math.random() * animalsCount));
