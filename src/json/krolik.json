@@ -1,0 +1,88 @@
+{
+    "bunnys" : [
+        {
+            "ElementId" : 1,
+            "Race" : "Miniaturka - Gładkowłosy",
+            "Description" : "To chyba najczęściej spotykana odmiana królików miniaturowych. Króliki gładkowłose mają krótką sierść nie wymagającą zbyt dużej pielęgnacji. W okolicach karku jest ona odrobinę dłuższa lecz nie tak gęsta, jak u króliczych lwów. Waga królików gładkowłosych waha się pomiędzy 800 a 1200 gram. Istnieje wiele ubarwień tej rasy.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 2,
+            "Race" : "Miniaturka - Mini rex",
+            "Description" : "Mini rex charakteryzuje się przede wszystkim zadziwiającym futrem, które jest wyjątkowo miękkie i aksamitne. Jest to rasa ważąca około 700-1000 gram. Uszy królika są dosyć krótkie, a głowa jest szeroka, jednak nie jest krótka. Krępa budowa ciała. Można spotkać wiele ubarwień tej rasy. Futro jest wszędzie takiej samej długości (zarówno na grzbiecie, jak i na brzuchu królika). Mini rex jest dosyć prostą rasą do opieki, jeśli chodzi o czynności związane z pielęgnacją futra.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 3,
+            "Race" : "Miniaturka - Baran miniaturowy",
+            "Description" : "Cechą charakterystyczną tej rasy są przede wszystkim opadnięte uszy i tzw. "korona" na głowie pomiędzy uszami. Są to króliki trochę większe od innych miniatur. Ich waga sięga 1500-2500 gram. Przeważnie spotykane są barany krótkowłose, jednak można też zakupić barana długowłosego.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 4,
+            "Race" : "Miniaturka - Lew",
+            "Description" : "Lwy charakteryzują się dłuższą sierścią w okolicach karku, przez co powstaje wrażenie "lwiej grzywy". Tułów jest natomiast gładkowłosy. Ich waga waha się pomiędzy 800 a 1200 gram. Lwy posiadają również pędzelek w okolicach ogona.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 5,
+            "Race" : "Miniaturka - Angora",
+            "Description" : "W odróżnieniu od pozostałych ras, angory posiadają bardzo długie futro. Jedynie na pyszczku ich futro jest krótkie. Ze względu na długi włos dużo czasu należy poświęcać na pielęgnację i wyczesywanie futra, by nie doszło do zatoru. Podobnie jak lwy i króliki gładkowłose - angory osiągają ciężar ciała od 800 do 1200 gram.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 6,
+            "Race" : "Baran francuski",
+            "Description" : "Jest to najczęstsza rasa hodowana w Polsce (jeśli chodzi o duże rasy królików). Rasa ta powstała w wyniku krzyżówki barana angielskiego, olbrzyma belgijskiego oraz królikiem normandzkim. Charakterystycznymi cechami barana francuskiego są: krępa i zbita sylwetka, niewidoczna szyja oraz oklapnięte uszy o rozpiętości od 38 do 45 cm. Ich minimalna waga to 4,5 kg. Futro baranów francuskich jest gęste i miękkie. Istnieje wiele umaszczeń tej rasy.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 7,
+            "Race" : "Belgijski olbrzym",
+            "Description" : "Jak sama nazwa wskazuje, rasa ta pochodzi z Belgii. Jest to jedna z największych ras królików, ich waga może osiągnąć nawet 10 kg. Olbrzymy belgijskie charakteryzują się długimi uszami (ok. 19 cm), dużą głową, szeroko rozstawionymi tylnymi łapami i prostą linią grzbietu. Ich futro jest miękkie i ma długość około 3-4 cm. Występuje wiele barw okrywy włosowej u tej rasy, jednak najpopularniejsze są białe belgijskie olbrzymy, które są nieco niższe w porównaniu do pozostałych królików tej rasy. Biały olbrzym belgijski ma śnieżnobiałe podszycie, różowe oczy i jasne pazury.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 8,
+            "Race" : "Nowozelandzki biały",
+            "Description" : "Mimo, iż nazwa rasy sugerowałaby inaczej, królik nowozelandzki biały został wyhodowany po raz pierwszy w Stanach Zjednoczonych na początku XX wieku. Króliki tej rasy są białe, mają czerwone oczy i białe lub cieliste pazurki. Ich tułów jest średniej długości i dobrze umięśniony, a nogi krótkie i masywne. Średnia waga Nowozelandczyków wynosi 5,5 kg. Króliki te podobno mają dosyć nieprzyjazne usposobienie.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 9,
+            "Race" : "Nowozelandzki czerwony",
+            "Description" : "Rasa ta powstała w Kalifornii w USA na początku XX wieku. Charakteryzuje ją czerwono złociste umaszczenie futra na grzbiecie, jednak na brzuchu i w okolicach oczu futro ma kolor jaśniejszy (nie biały). Zarówno oczy, jak i pazurki mają ciemny kolor. Waga nie powinna przekraczać 5,30 kg. Podobnie, jak w przypadku królika nowozelandzkiego białego, nowozelandzki czerwony ma dobrze umięśniony, średniej długości tułów oraz krótkie i masywne nogi.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 10,
+            "Race" : "Castorex",
+            "Description" : "Jest to mieszanka rexa z innymi królikami gładkowłosymi. Futro krótkie, lecz jedwabiste i miękkie w dotyku. Kolor futra jest zbliżony do koloru kasztanu, jednak na wewnętrznej stronie kończyn i spodniej części ogona występuje białe futro. Waga około 5 kg.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 11,
+            "Race" : "Kalifornijski",
+            "Description" : "Królik kalifornijski jest efektem mieszanki wielu ras m.in.: nowozelandzki biały, szynszyli oraz himalajski (rosyjski). Specyficzną cechą tej rasy jest śnieżnobiałe futro z wyjątkiem uszu, tylnich kończyn (do stawu skokowego) oraz okolic nosa, które to są ciemnobrązowe lub czarne. Oczy królika kalifornijskiego są czerwone, a pazurki ciemne. Są bardzo przyjazne i spokojne. Doskonale nadają się na zwierzęta domowe.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 12,
+            "Race" : "Niebieski wiedeński",
+            "Description" : "Rasa powstała w Wiedniu w wyniku wielokrotnego krzyżowania takich ras jak: olbrzym belgijski, olbrzym lotaryński, morawski niebieski i królika holenderskiego. Cechą charakterystyczną jest niebieski odcień futra, okrągła głowa i niebieskoszare oczy. Dorosły osobnik tej razy waży od 4,5 do 5,5 kg.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 13,
+            "Race" : "Rex",
+            "Description" : "Są to króliki o niesamowicie miękkim i jedwabistym futrze. Mają długie sterczące uszy. Ze względu na bardzo krótkie futro, bardzo łatwa jest pielęgnacja tego futra i nie wymaga ona codziennego czesania (jedynie w okresie linienia można wilgotną ręką ściągać martwe włosy). Rexy są bardzo przyjazne i doskonale nadają się na zwierzęta domowe. Charakteryzują się średnim poziomem aktywności. Lubią się bawić, a czasem potrafią spokojnie siedzieć na kolanach opiekunów.",
+            "MaxPhotos" : 0
+        },
+        {
+            "ElementId" : 14,
+            "Race" : "Tan",
+            "Description" : "Jest to jedna z najstarszych ras królików. Tan (inaczej może być określany mianem podpalanego) jest efektem skrzyżowania królika dzikiego z zajęczakiem. U samic brak jest wola (podgardla). Tan ma bardzo charakterystyczne umaszczenie. Jego futro jest ciemne z pomarańczowym podpalaniem.",
+            "MaxPhotos" : 0
+        }
+    ]
+}
