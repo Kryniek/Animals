@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="app" ng-controller="appCtrl">
+<html ng-app="app" ng-controller="krolikiCtrl">
     <head>
         <!-- cdn linki -->
         <!-- dzięki nim używany jest bootstrap oraz angular -->
@@ -18,71 +18,62 @@
         <!-- main -->
         
         <!--css-->
-        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="../css/main.css">
         <!--/css-->
     </head>
-    <body>
-        <!-- http://www.kroliki.net/pl/porady/podstawowe-informacje/rasy -->
+    <body id="body">
+        
         <!-- navbar -->
         <!-- pasek nawigacyjny u góry strony -->
         <nav class="navbar navbar navbar-fixed-top navbarCSS" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-left" href="index.html">
-                        <img class="logoImg" src="src/img/logo.jpg"/><img class="logoText" src="src/img/logoZwierzaki.png"/>
+                    <a class="navbar-left" href="../../index.html">
+                        <img class="logoImg" src="../img/logo.jpg"/><img class="logoText" src="../img/logoZwierzaki.png"/>
                     </a>
                 </div>
-                <a href="src/view/opis.html" class="btn btn-warning navbar-btn navbar-right">Opis</a>
+                <a href="../view/opis.html" class="btn btn-warning navbar-btn navbar-right">Opis</a>
+                <a href="spis/kroliki.html" class="btn btn-warning navbar-btn navbar-right">Zobacz wszystkie rasy</a>
             </div>
         </nav>
         <!-- /navbar -->
-            
+        
         <!--container-->
         <!-- glówny kontener -->
         <div class="container containerCSS">
             
             <!-- nagłówek -->
             <div class="page-header">
-                <img class="img-responsive imgCentered" src="src/img/logoZwierzaki.png"/>
+                <img class="img-responsive imgCentered" src="../img/koty.png"/>
             </div>
             <!-- /nagłówek -->
             
-            <!-- thumbnailsRow -->
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <a href="src/view/psy.html" class="thumbnail">
-                        <img src="src/img/row/dogRow.jpg" alt="Psy"/>
+                <div class="col-sm-6 col-md-6">
+                    <a id="firstImg" href="koty.html" class="thumbnail">
+                        <img id="firstPath"/>
                         <div class="caption">
-                            <h3 class="textCentered">Psy</h3>
+                            <h3 id="firstRace">Rasa</h3>
+                            <hr>
+                            <h4>Opis</h4>
+                            <p id="firstDescription">Informacje i historia</p>
+                            <hr>
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="src/view/koty.html" class="thumbnail">
-                        <img src="src/img/row/catRow.jpg" alt="Koty"/>
+                <div class="col-sm-6 col-md-6">
+                    <a id="secondImg" href="koty.html" class="thumbnail">
+                        <img id="secondPath"/>
                         <div class="caption">
-                            <h3 class="textCentered">Koty</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="src/view/fretki.html" class="thumbnail">
-                        <img src="src/img/row/fretkaRow.jpg" alt="Fretki"/>
-                        <div class="caption">
-                            <h3 class="textCentered">Fretki</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a href="src/view/kroliki.html" class="thumbnail">
-                        <img src="src/img/row/krolikRow.jpg" alt="Kroliki"/>
-                        <div class="caption">
-                            <h3 class="textCentered">Króliki</h3>
+                            <h3 id="secondRace">Rasa</h3>
+                            <hr>
+                            <h4>Opis</h4>
+                            <p id="secondDescription">Informacje i historia</p>
+                            <hr>
                         </div>
                     </a>
                 </div>
             </div>
-            <!-- /thumbnailsRow -->
             
         </div>
         <!--/container-->
@@ -101,9 +92,9 @@
         <!-- /stopka -->
         
         <!--JS-->
-        <script src="src/js/main.js"></script>
-        <script src="src/js/controller.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/animals/kroliki.js"></script>
         <!--JS-->
         
-    </body
+    </body>
 </html>
