@@ -1,0 +1,203 @@
+<!doctype html>
+<html ng-app="app" ng-controller="fretkiSpisCtrl">
+    <head>
+        <!-- cdn linki -->
+        <!-- dzięki nim używany jest bootstrap oraz angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- /cdn linki -->
+        
+        
+        <!-- main -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zwierzaki</title>
+        <!-- main -->
+        
+        <!--css-->
+        <link rel="stylesheet" href="../../css/main.css">
+        <!--/css-->
+    </head>
+    <body id="body">
+        
+        <!-- navbar -->
+        <!-- pasek nawigacyjny u góry strony -->
+        <nav class="navbar navbar navbar-fixed-top navbarCSS" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-left" href="../../../index.html">
+                        <img class="logoImg" src="../../img/logo.jpg"/><img class="logoText" src="../../img/logoZwierzaki.png"/>
+                    </a>
+                </div>
+                <a href="../../view/opis.html" class="btn btn-warning navbar-btn navbar-right">Opis</a>
+                <a href="fretki.html" class="btn btn-warning navbar-btn navbar-right">Zobacz wszystkie rasy</a>
+            </div>
+        </nav>
+        <!-- /navbar -->
+        
+        <!--container-->
+        <!-- glówny kontener -->
+        <div class="container containerCSS">
+            
+            <!-- nagłówek -->
+            <div class="page-header">
+                <img class="img-responsive imgCentered" src="../../img/fretki.png"/>
+            </div>
+            <!-- /nagłówek -->
+            
+            <div class="row">
+                <div ng-show="showMainView">
+                    <div id="col0" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path0"/>
+                            <div class="caption">
+                                <h4 id="race0">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col1" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path1"/>
+                            <div class="caption">
+                                <h4 id="race1">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col2" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path2"/>
+                            <div class="caption">
+                                <h4 id="race2">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col3" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path3"/>
+                            <div class="caption">
+                                <h4 id="race3">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col4" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path4"/>
+                            <div class="caption">
+                                <h4 id="race4">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col5" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path5"/>
+                            <div class="caption">
+                                <h4 id="race5">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col6" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path6"/>
+                            <div class="caption">
+                                <h4 id="race6">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="col7" ng-click="showSecondView()" class="col-sm-3 col-md-3">
+                        <a class="btn btn-success thumbnail">
+                            <img id="path7"/>
+                            <div class="caption">
+                                <h4 id="race7">Rasa</h4>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div ng-show="showSecondView">
+                    <div class="col-sm-12 col-md-12">
+                        <a id="firstImg" class="thumbnail">
+                            <img id="firstPath1"/>
+                            <img id="firstPath2"/>
+                            <img id="firstPath3"/>
+                            <img id="firstPath4"/>
+                            <img id="firstPath5"/>
+                            <img id="firstPath6"/>
+                            <img id="firstPath7"/>
+                            <img id="firstPath8"/>
+                            <img id="firstPath9"/>
+                            <img id="firstPath10"/>
+                            <img id="firstPath11"/>
+                            <img id="firstPath12"/>
+                            <img id="firstPath13"/>
+                            <img id="firstPath14"/>
+                            <img id="firstPath15"/>
+                            <img id="firstPath16"/>
+                            <img id="firstPath17"/>
+                            <img id="firstPath18"/>
+                            <img id="firstPath19"/>
+                            <img id="firstPath20"/>
+                            <img id="firstPath21"/>
+                            <img id="firstPath22"/>
+                            <img id="firstPath23"/>
+                            <img id="firstPath24"/>
+                            <img id="firstPath25"/>
+                            <img id="firstPath26"/>
+                            <img id="firstPath27"/>
+                            <img id="firstPath28"/>
+                            <img id="firstPath29"/>
+                            <img id="firstPath30"/>
+                            <img id="firstPath31"/>
+                            <img id="firstPath32"/>
+                            <img id="firstPath33"/>
+                            <img id="firstPath34"/>
+                            <img id="firstPath35"/>
+                            <img id="firstPath36"/>
+                            <img id="firstPath37"/>
+                            <img id="firstPath38"/>
+                            <img id="firstPath39"/>
+                            <img id="firstPath40"/>
+                            <div class="caption">
+                                <h3 id="firstRace">Rasa</h3>
+                                <hr>
+                                <h4>Budowa ciała</h4>
+                                <p id="firstDescription">Budowa ciała</p>
+                                <hr>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--/container-->
+        
+        <!-- stopka -->
+        <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p>Autor: Krystian Szatkiewicz</p>
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="http://www.github.com/kryniek">github.com/kryniek</a>
+                </div>
+            </div>
+        </div>
+        <!-- /stopka -->
+        
+        <!--JS-->
+        <script src="../../js/main.js"></script>
+        <script src="../../js/animals/spis/fretki.js"></script>
+        <!--JS-->
+        
+    </body
+</html>

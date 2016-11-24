@@ -21,74 +21,32 @@
         {
             "ElementId" : 4,
             "Race" : "Szampańska - champagne",
-            "Description" : "",
-            "MaxPhotos" : 0
+            "Description" : "Włos pokrywowy – brunatny lub barwy rozcieńczonej czekolady. UWAGA u tych fretek brak wyraźnie czerwonych odcieni! Włos puchowy – biały do kremowego, nie może być żółty. Oczy – koloru jasnego do ciemnego burgunda. Nos – powinien być beżowy, różowy lub różowy z beżową lub jasno brązową obwódką w kształcie litery T. ",
+            "MaxPhotos" : 6
         },
         {
             "ElementId" : 5,
             "Race" : "Czekoladowa - chocolate",
-            "Description" : "",
-            "MaxPhotos" : 0
+            "Description" : "Włos pokrywowy – ciepłe odcienie koloru mlecznej czekolady. Włos puchowy – powinien być biały, lecz dopuszczalne są delikatne odcienie złotego. Oczy – korzystnie brązowe, lecz dopuszczalne są koloru ciemnego burgunda. Nos – powinien być beżowy, różowy lub różowy z jasno brązową obwódką w kształcie litery T. Akceptowany jest również nos o barwie ceglastej. ",
+            "MaxPhotos" : 4
         },
         {
             "ElementId" : 6,
             "Race" : "Cynamonowa - cinnamon",
-            "Description" : "",
-            "MaxPhotos" : 0
+            "Description" : "Włos pokrywowy – pełny jasno czerwony brąz. Włos puchowy – korzystnie odcienie złotego, lecz dopuszczalny jest biały. Oczy – koloru jasnego do ciemnego burgunda. Nos – korzystnie ceglasty, beżowo-różowy z jasnobrązową lub ceglastą obwódką w kształcie litery T. Nie dyskwalifikuje różowy.",
+            "MaxPhotos" : 5
         },
         {
             "ElementId" : 7,
             "Race" : "Biała ciemnooka - dark eyed white",
-            "Description" : "",
-            "MaxPhotos" : 0
+            "Description" : "Włos pokrywowy – powinien być śnieżnobiały, lecz dopuszczalne są wszelkie odcienie bieli do kremowego. Włos puchowy – powinien być taki jak okrywowy, najkorzystniej śnieżnobiały. Oczu – koloru burgunda. Nosa – wyłącznie różowy, bez plam i przebarwień.",
+            "MaxPhotos" : 4
         },
         {
             "ElementId" : 8,
             "Race" : "Brązowa - sable",
             "Description" : "Najczęściej spotykana u fretek, odpowiada ubarwieniu dzikiego tchórza. Zapewne mniej więcej tak wyglądał protoplasta naszej fretki udomowiony ok. 3000 lat temu. Włos pokrywowy – ciepły, głęboki brąz. Włos puchowy – powinien być biały lecz dopuszczalne odcienie bieli do kremowego. Oczy – brązowe do prawie czarnych. Nos – korzystnie jasnobrązowy, lub brązowy z przebarwieniami lub z brązową obwódką w kształcie litery T.",
             "MaxPhotos" : 7
-        },
-        {
-            "ElementId" : 9,
-            "Race" : "Syjamiskie - point / siamese",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 10,
-            "Race" : "Deresz - roan",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 11,
-            "Race" : "Jednorodne - solid",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 12,
-            "Race" : "Typowy tchórz - standard",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 13,
-            "Race" : "Strzałka - blaze",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 14,
-            "Race" : "Panda",
-            "Description" : "",
-            "MaxPhotos" : 0
-        },
-        {
-            "ElementId" : 15,
-            "Race" : "Arlekin - mitt",
-            "Description" : "",
-            "MaxPhotos" : 0
         }
     ]
 }
