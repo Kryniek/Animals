@@ -4,37 +4,37 @@
             "ElementId" : 1,
             "Race" : "Miniaturka - Gładkowłosy",
             "Description" : "To chyba najczęściej spotykana odmiana królików miniaturowych. Króliki gładkowłose mają krótką sierść nie wymagającą zbyt dużej pielęgnacji. W okolicach karku jest ona odrobinę dłuższa lecz nie tak gęsta, jak u króliczych lwów. Waga królików gładkowłosych waha się pomiędzy 800 a 1200 gram. Istnieje wiele ubarwień tej rasy.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 21
         },
         {
             "ElementId" : 2,
             "Race" : "Miniaturka - Mini rex",
             "Description" : "Mini rex charakteryzuje się przede wszystkim zadziwiającym futrem, które jest wyjątkowo miękkie i aksamitne. Jest to rasa ważąca około 700-1000 gram. Uszy królika są dosyć krótkie, a głowa jest szeroka, jednak nie jest krótka. Krępa budowa ciała. Można spotkać wiele ubarwień tej rasy. Futro jest wszędzie takiej samej długości (zarówno na grzbiecie, jak i na brzuchu królika). Mini rex jest dosyć prostą rasą do opieki, jeśli chodzi o czynności związane z pielęgnacją futra.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 16
         },
         {
             "ElementId" : 3,
             "Race" : "Miniaturka - Baran miniaturowy",
             "Description" : "Cechą charakterystyczną tej rasy są przede wszystkim opadnięte uszy i tzw. korona na głowie pomiędzy uszami. Są to króliki trochę większe od innych miniatur. Ich waga sięga 1500-2500 gram. Przeważnie spotykane są barany krótkowłose, jednak można też zakupić barana długowłosego.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 10
         },
         {
             "ElementId" : 4,
             "Race" : "Miniaturka - Lew",
             "Description" : "Lwy charakteryzują się dłuższą sierścią w okolicach karku, przez co powstaje wrażenie lwiej grzywy. Tułów jest natomiast gładkowłosy. Ich waga waha się pomiędzy 800 a 1200 gram. Lwy posiadają również pędzelek w okolicach ogona.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 14
         },
         {
             "ElementId" : 5,
             "Race" : "Miniaturka - Angora",
             "Description" : "W odróżnieniu od pozostałych ras, angory posiadają bardzo długie futro. Jedynie na pyszczku ich futro jest krótkie. Ze względu na długi włos dużo czasu należy poświęcać na pielęgnację i wyczesywanie futra, by nie doszło do zatoru. Podobnie jak lwy i króliki gładkowłose - angory osiągają ciężar ciała od 800 do 1200 gram.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 15
         },
         {
             "ElementId" : 6,
             "Race" : "Baran francuski",
             "Description" : "Jest to najczęstsza rasa hodowana w Polsce (jeśli chodzi o duże rasy królików). Rasa ta powstała w wyniku krzyżówki barana angielskiego, olbrzyma belgijskiego oraz królikiem normandzkim. Charakterystycznymi cechami barana francuskiego są: krępa i zbita sylwetka, niewidoczna szyja oraz oklapnięte uszy o rozpiętości od 38 do 45 cm. Ich minimalna waga to 4,5 kg. Futro baranów francuskich jest gęste i miękkie. Istnieje wiele umaszczeń tej rasy.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 11
         },
         {
             "ElementId" : 7,
