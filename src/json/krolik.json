@@ -4,7 +4,7 @@
             "ElementId" : 1,
             "Race" : "Miniaturka - Gładkowłosy",
             "Description" : "To chyba najczęściej spotykana odmiana królików miniaturowych. Króliki gładkowłose mają krótką sierść nie wymagającą zbyt dużej pielęgnacji. W okolicach karku jest ona odrobinę dłuższa lecz nie tak gęsta, jak u króliczych lwów. Waga królików gładkowłosych waha się pomiędzy 800 a 1200 gram. Istnieje wiele ubarwień tej rasy.",
-            "MaxPhotos" : 21
+            "MaxPhotos" : 18
         },
         {
             "ElementId" : 2,
@@ -16,13 +16,13 @@
             "ElementId" : 3,
             "Race" : "Miniaturka - Baran miniaturowy",
             "Description" : "Cechą charakterystyczną tej rasy są przede wszystkim opadnięte uszy i tzw. korona na głowie pomiędzy uszami. Są to króliki trochę większe od innych miniatur. Ich waga sięga 1500-2500 gram. Przeważnie spotykane są barany krótkowłose, jednak można też zakupić barana długowłosego.",
-            "MaxPhotos" : 10
+            "MaxPhotos" : 11
         },
         {
             "ElementId" : 4,
             "Race" : "Miniaturka - Lew",
             "Description" : "Lwy charakteryzują się dłuższą sierścią w okolicach karku, przez co powstaje wrażenie lwiej grzywy. Tułów jest natomiast gładkowłosy. Ich waga waha się pomiędzy 800 a 1200 gram. Lwy posiadają również pędzelek w okolicach ogona.",
-            "MaxPhotos" : 14
+            "MaxPhotos" : 16
         },
         {
             "ElementId" : 5,
