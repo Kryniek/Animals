@@ -38,51 +38,51 @@
         },
         {
             "ElementId" : 7,
-            "Race" : "Belgijski olbrzym",
+            "Race" : "",
             "Description" : "Jak sama nazwa wskazuje, rasa ta pochodzi z Belgii. Jest to jedna z największych ras królików, ich waga może osiągnąć nawet 10 kg. Olbrzymy belgijskie charakteryzują się długimi uszami (ok. 19 cm), dużą głową, szeroko rozstawionymi tylnymi łapami i prostą linią grzbietu. Ich futro jest miękkie i ma długość około 3-4 cm. Występuje wiele barw okrywy włosowej u tej rasy, jednak najpopularniejsze są białe belgijskie olbrzymy, które są nieco niższe w porównaniu do pozostałych królików tej rasy. Biały olbrzym belgijski ma śnieżnobiałe podszycie, różowe oczy i jasne pazury.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 12
         },
         {
             "ElementId" : 8,
             "Race" : "Nowozelandzki biały",
             "Description" : "Mimo, iż nazwa rasy sugerowałaby inaczej, królik nowozelandzki biały został wyhodowany po raz pierwszy w Stanach Zjednoczonych na początku XX wieku. Króliki tej rasy są białe, mają czerwone oczy i białe lub cieliste pazurki. Ich tułów jest średniej długości i dobrze umięśniony, a nogi krótkie i masywne. Średnia waga Nowozelandczyków wynosi 5,5 kg. Króliki te podobno mają dosyć nieprzyjazne usposobienie.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 13
         },
         {
             "ElementId" : 9,
             "Race" : "Nowozelandzki czerwony",
             "Description" : "Rasa ta powstała w Kalifornii w USA na początku XX wieku. Charakteryzuje ją czerwono złociste umaszczenie futra na grzbiecie, jednak na brzuchu i w okolicach oczu futro ma kolor jaśniejszy (nie biały). Zarówno oczy, jak i pazurki mają ciemny kolor. Waga nie powinna przekraczać 5,30 kg. Podobnie, jak w przypadku królika nowozelandzkiego białego, nowozelandzki czerwony ma dobrze umięśniony, średniej długości tułów oraz krótkie i masywne nogi.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 18
         },
         {
             "ElementId" : 10,
             "Race" : "Castorex",
             "Description" : "Jest to mieszanka rexa z innymi królikami gładkowłosymi. Futro krótkie, lecz jedwabiste i miękkie w dotyku. Kolor futra jest zbliżony do koloru kasztanu, jednak na wewnętrznej stronie kończyn i spodniej części ogona występuje białe futro. Waga około 5 kg.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 13
         },
         {
             "ElementId" : 11,
             "Race" : "Kalifornijski",
             "Description" : "Królik kalifornijski jest efektem mieszanki wielu ras m.in.: nowozelandzki biały, szynszyli oraz himalajski (rosyjski). Specyficzną cechą tej rasy jest śnieżnobiałe futro z wyjątkiem uszu, tylnich kończyn (do stawu skokowego) oraz okolic nosa, które to są ciemnobrązowe lub czarne. Oczy królika kalifornijskiego są czerwone, a pazurki ciemne. Są bardzo przyjazne i spokojne. Doskonale nadają się na zwierzęta domowe.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 14
         },
         {
             "ElementId" : 12,
             "Race" : "Niebieski wiedeński",
             "Description" : "Rasa powstała w Wiedniu w wyniku wielokrotnego krzyżowania takich ras jak: olbrzym belgijski, olbrzym lotaryński, morawski niebieski i królika holenderskiego. Cechą charakterystyczną jest niebieski odcień futra, okrągła głowa i niebieskoszare oczy. Dorosły osobnik tej razy waży od 4,5 do 5,5 kg.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 11
         },
         {
             "ElementId" : 13,
             "Race" : "Rex",
             "Description" : "Są to króliki o niesamowicie miękkim i jedwabistym futrze. Mają długie sterczące uszy. Ze względu na bardzo krótkie futro, bardzo łatwa jest pielęgnacja tego futra i nie wymaga ona codziennego czesania (jedynie w okresie linienia można wilgotną ręką ściągać martwe włosy). Rexy są bardzo przyjazne i doskonale nadają się na zwierzęta domowe. Charakteryzują się średnim poziomem aktywności. Lubią się bawić, a czasem potrafią spokojnie siedzieć na kolanach opiekunów.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 8
         },
         {
             "ElementId" : 14,
             "Race" : "Tan",
             "Description" : "Jest to jedna z najstarszych ras królików. Tan (inaczej może być określany mianem podpalanego) jest efektem skrzyżowania królika dzikiego z zajęczakiem. U samic brak jest wola (podgardla). Tan ma bardzo charakterystyczne umaszczenie. Jego futro jest ciemne z pomarańczowym podpalaniem.",
-            "MaxPhotos" : 0
+            "MaxPhotos" : 12
         }
     ]
 }
