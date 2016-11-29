@@ -19,7 +19,13 @@
         
         <!--css-->
         <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <!--/css-->
+        
+        <!-- JS -->
+        <script src="src/js/main.js"></script>
+        <!-- /JS -->
+        
     </head>
     <body>
         <!-- navbar -->
@@ -31,10 +37,28 @@
                         <img class="logoImg" src="src/img/logo.jpg"/><img class="logoText" src="src/img/logoZwierzaki.png"/>
                     </a>
                 </div>
-                <a href="src/view/opis.html" class="btn btn-warning navbar-btn navbar-right">Opis</a>
+                <a href="src/view/opis.html" class="btn btn-warning navbar-btn navbar-right"><i class="fa fa-cog fa-fw fa-lg fa-spin"></i>&nbsp; Opis</a>
+                <a id="randImg" class="btn btn-warning navbar-btn navbar-right" data-toggle="modal" data-target="#random"><i class="fa fa-fw fa-lg fa-hashtag"></i>&nbsp; Losuj wśród wszystkich zwierząt</a>
             </div>
         </nav>
         <!-- /navbar -->
+        
+        <div class="modal fade" id="random" tabindex="-1" role="dialog" aria-labelledby="randomLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Zamknij</span>
+                        </button>
+                        <h2 class="modal-title text-center" id="randomLabel">Wylosowane zdjęcie</h2>
+                    </div>
+                    <div class="modal-body">
+                        <img id="randomImg" class="thumbnail"/>
+                    </div>
+                </div>
+            </div>
+        </div>
             
         <!--container-->
         <!-- glówny kontener -->
@@ -100,7 +124,6 @@
         <!-- /stopka -->
         
         <!--JS-->
-        <script src="src/js/main.js"></script>
         <script src="src/js/controller.js"></script>
         <!--JS-->
         
