@@ -48,7 +48,7 @@ app.controller('appCtrl', function($scope){
                 content=data.dogs[rand-1].Race;
                 document.getElementById("randomLabel").textContent=content;
             } else if(jsonName=="kot.json"){
-                randMaxCount = Math.floor((Math.random() * data.cats[rand].MaxPhotos)+1);
+                randMaxCount = Math.floor((Math.random() * data.cats[rand-1].MaxPhotos)+1);
                 content=data.cats[rand-1].Race;
                 document.getElementById("randomLabel").textContent=content;
             } else if(jsonName=="fretka.json"){
